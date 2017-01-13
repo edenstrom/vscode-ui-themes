@@ -1,0 +1,61 @@
+.monaco-shell.vs-dark {
+    background-color: #1b2b34;
+}
+
+.vs-dark .monaco-workbench .monaco-editor-background {
+    background-color: #1b2b34;
+}
+
+.vs-dark .quick-open-widget {
+    background-color: #1b2b34;
+}
+
+.vs-dark .monaco-workbench {
+    background-color: #1b2b34;
+    --input-bgcolor: rgba(101, 115, 126, 1);
+    --input-bgcolor: #131F25;
+}
+
+.vs-dark .monaco-workbench .sidebar {
+    border-right: solid 1px #000;
+}
+
+.vs-dark .settings-header-widget>.settings-search-container {
+    background: none;
+}
+
+.vs-dark .monaco-workbench>.activitybar>.content {
+    background: #131F25;
+}
+
+.vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:not(.active) {
+    background: #131F25;
+}
+
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider {
+    background-color: #3F4D54;
+}
+
+.vs-dark .monaco-workbench>.part.titlebar {
+    background: #131F25;
+}
+
+.vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs {
+    background: #131F25;
+}
+
+.vs-dark .monaco-workbench>.sidebar>.title>.title-actions {
+    background: #131F25;
+}
+
+.monaco-workbench>.part>.composite.title {
+    background: #131F25;
+}
+
+.vs-dark .monaco-tree .monaco-tree-row.selected:not(.highlighted) {
+    background: #131F25;
+}
+
+.monaco-workbench>.part.statusbar {
+    background: #ce5b66;
+}
