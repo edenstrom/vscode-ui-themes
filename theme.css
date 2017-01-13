@@ -1,19 +1,25 @@
 .monaco-shell.vs-dark {
-    background-color: #1b2b34;
+  --theme-base: #1b2b34;
+  --theme-darker: #131F25;
+  --theme-statusbar: #ce5b66;
+  --theme-slider: #3F4D54;
+}
+
+.monaco-shell.vs-dark {
+    background-color: var(--theme-base);
 }
 
 .vs-dark .monaco-workbench .monaco-editor-background {
-    background-color: #1b2b34;
+    background-color: var(--theme-base);
 }
 
 .vs-dark .quick-open-widget {
-    background-color: #1b2b34;
+    background-color: var(--theme-base);
 }
 
 .vs-dark .monaco-workbench {
-    background-color: #1b2b34;
-    --input-bgcolor: rgba(101, 115, 126, 1);
-    --input-bgcolor: #131F25;
+    background-color: var(--theme-base);
+    --input-bgcolor: var(--theme-darker);
 }
 
 .vs-dark .monaco-workbench .sidebar {
@@ -25,37 +31,37 @@
 }
 
 .vs-dark .monaco-workbench>.activitybar>.content {
-    background: #131F25;
+    background: var(--theme-darker);
 }
 
 .vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:not(.active) {
-    background: #131F25;
+    background: var(--theme-darker);
 }
 
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider {
-    background-color: #3F4D54;
+    background-color: var(--theme-slider);
 }
 
 .vs-dark .monaco-workbench>.part.titlebar {
-    background: #131F25;
+    background: var(--theme-darker);
 }
 
 .vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs {
-    background: #131F25;
+    background: var(--theme-darker);
 }
 
 .vs-dark .monaco-workbench>.sidebar>.title>.title-actions {
-    background: #131F25;
+    background: var(--theme-darker);
 }
 
 .monaco-workbench>.part>.composite.title {
-    background: #131F25;
+    background: var(--theme-darker);
 }
 
 .vs-dark .monaco-tree .monaco-tree-row.selected:not(.highlighted) {
-    background: #131F25;
+    background: var(--theme-darker);
 }
 
 .monaco-workbench>.part.statusbar {
-    background: #ce5b66;
+    background: var(--theme-statusbar);
 }
