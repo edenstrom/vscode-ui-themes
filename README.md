@@ -38,3 +38,17 @@ Used in the screenshot:
 - Add more Themes
 - Add more variables
 - Fix missing theme details (for example)
+
+## Extension Goals
+
+The API I'm aiming for is something like this:
+
+For premade themes:
+```
+"vscode_ui_themes.theme": "eagle-oceanic-next"
+```
+
+For custom theme:
+```
+"vscode_ui_themes.theme": "file:///path/to/file.css"
+```
