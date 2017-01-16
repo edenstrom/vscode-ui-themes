@@ -19,8 +19,8 @@ Used in the screenshot:
 3. Go to your settings and add the following:
 ```json
 "vscode_custom_css.imports": [
-  "file:///path/to/repo/your-selected-theme.css",
-  "file:///path/to/repo/base.css"
+  "file:///path/to/repo/themes/your-selected-theme.css",
+  "file:///path/to/repo/themes/base.css"
 ]
 ```
 4. Run the command `Enable Custom CSS and JS`.
