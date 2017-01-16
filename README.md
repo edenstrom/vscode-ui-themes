@@ -20,7 +20,7 @@ Used in the screenshot:
 ```json
 "vscode_custom_css.imports": [
   "file:///path/to/repo/your-selected-theme.css",
-  "file:///path/to/repo/theme.css"
+  "file:///path/to/repo/base.css"
 ]
 ```
 4. Run the command `Enable Custom CSS and JS`.
