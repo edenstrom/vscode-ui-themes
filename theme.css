@@ -1,11 +1,4 @@
 .monaco-shell.vs-dark {
-  --theme-base: #1b2b34;
-  --theme-darker: #131F25;
-  --theme-statusbar: #ce5b66;
-  --theme-slider: #3F4D54;
-}
-
-.monaco-shell.vs-dark {
     background-color: var(--theme-base);
 }
 
