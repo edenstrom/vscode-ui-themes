@@ -34,7 +34,7 @@ Used in the screenshot:
 
 ## To Do
 
-- Create a extension to make installation easier
+- Create an extension to make installation easier
 - Add more Themes
 - Add more variables
 - Fix missing theme details (for example)
