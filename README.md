@@ -1,8 +1,16 @@
-# Visual Studio Code UI Theme
+# Visual Studio Code UI Themes
 
-This is a basic VS Code theme used to customize the UI appearance.
+A basic customizable UI Theme for VS Code.
 
 Right now it uses [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) to add custom CSS files. Hopefully we'll have an official API soon.
+
+## Screenshot
+
+![](https://raw.githubusercontent.com/edenstrom/vscode-ui-themes/master/screenshots/eagle-oceanic-next.png)
+
+Used in the screenshot:
+- Font: Operator Mono
+- Theme: Eagle Oceanic Next
 
 ## How to Install
 
