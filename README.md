@@ -30,6 +30,7 @@ Used in the screenshot:
 ## Themes available
 
 - Eagle Oceanic Next (Use with [Eagle Oceanic Next](https://marketplace.visualstudio.com/items?itemName=graf009.Eagle-Oceanic-Next))
+- Panda Theme (Use with [Panda](https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda))
 - Want more? Create an issue or create a push request.
 
 ## To Do
