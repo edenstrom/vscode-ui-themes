@@ -39,7 +39,7 @@
     background: var(--theme-darker);
 }
 
-.vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs {
+.vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs.shows-tabs {
     background: var(--theme-darker);
 }
 
