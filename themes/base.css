@@ -43,6 +43,10 @@
     background: var(--theme-darker);
 }
 
+.vs-dark .monaco-tree .monaco-tree-row:hover:not(.highlighted):not(.selected):not(.focused) {
+    background-color: var(--theme-darker);
+}
+
 .vs-dark .monaco-workbench>.sidebar>.title>.title-actions {
     background: var(--theme-darker);
 }
@@ -57,4 +61,8 @@
 
 .monaco-workbench>.part.statusbar {
     background: var(--theme-statusbar);
+}
+
+.monaco-editor.vs-dark .glyph-margin {
+    background: var(--theme-base);
 }
