@@ -66,3 +66,11 @@
 .monaco-editor.vs-dark .glyph-margin {
     background: var(--theme-base);
 }
+
+.monaco-editor.vs-dark .find-widget {
+    background-color: var(--theme-darker);
+}
+
+.monaco-editor.vs-dark .find-widget .monaco-findInput, .monaco-editor.vs-dark .find-widget .replace-input {
+    background-color: var(--theme-base);
+}
