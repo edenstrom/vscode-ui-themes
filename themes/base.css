@@ -1,18 +1,22 @@
 .monaco-shell.vs-dark {
-    background-color: var(--theme-base);
+    background-color: var(--theme-base) !important;
 }
 
 .vs-dark .monaco-workbench .monaco-editor-background {
-    background-color: var(--theme-base);
+    background-color: var(--theme-base) !important;
 }
 
 .vs-dark .quick-open-widget {
-    background-color: var(--theme-base);
+    background-color: var(--theme-base) !important;
+}
+
+.vs-dark .monaco-workbench .sidebar {
+    background-color: var(--theme-darker) !important;
 }
 
 .vs-dark .monaco-workbench {
-    background-color: var(--theme-base);
-    --input-bgcolor: var(--theme-darker);
+    background-color: var(--theme-base) !important;
+    --input-bgcolor: var(--theme-darker) !important;
 }
 
 .vs-dark .monaco-workbench .sidebar {
@@ -20,57 +24,73 @@
 }
 
 .vs-dark .settings-header-widget>.settings-search-container {
-    background: none;
+    background-color: none;
 }
 
 .vs-dark .monaco-workbench>.activitybar>.content {
-    background: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:not(.active) {
-    background: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider {
-    background-color: var(--theme-slider);
+    background-color: var(--theme-slider) !important;
 }
 
 .vs-dark .monaco-workbench>.part.titlebar {
-    background: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs.shows-tabs {
-    background: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .vs-dark .monaco-tree .monaco-tree-row:hover:not(.highlighted):not(.selected):not(.focused) {
-    background-color: var(--theme-darker);
+    background-color: var(--theme-base) !important;
 }
 
 .vs-dark .monaco-workbench>.sidebar>.title>.title-actions {
-    background: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .monaco-workbench>.part>.composite.title {
-    background: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .vs-dark .monaco-tree .monaco-tree-row.selected:not(.highlighted) {
-    background: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .monaco-workbench>.part.statusbar {
-    background: var(--theme-statusbar);
+    background-color: var(--theme-statusbar) !important;
 }
 
 .monaco-editor.vs-dark .glyph-margin {
-    background: var(--theme-base);
+    background-color: var(--theme-base) !important;
 }
 
 .monaco-editor.vs-dark .find-widget {
-    background-color: var(--theme-darker);
+    background-color: var(--theme-darker) !important;
 }
 
 .monaco-editor.vs-dark .find-widget .monaco-findInput, .monaco-editor.vs-dark .find-widget .replace-input {
-    background-color: var(--theme-base);
+    background-color: var(--theme-base) !important;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title, .monaco-workbench>.part>.title {
+    background-color: var(--theme-darker) !important;
+}
+
+.monaco-editor.vs-dark .minimap-shadow-visible {
+    box-shadow: inset -6px 0 6px -6px rgba(0, 0, 0, 0.4);
+}
+
+.monaco-editor.vs-dark .minimap-slider {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.monaco-editor.vs-dark .minimap-slider:hover, .monaco-editor.vs .minimap-slider:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
